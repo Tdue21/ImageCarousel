@@ -1,0 +1,8 @@
+.old/
+bin/
+obj/
+.vs/
+*.user
+_ReSharper.Caches/
+Logs/
+
