@@ -38,5 +38,5 @@ builder.ConfigureServices(services =>
 
 var app = builder.Build();
 
-app.MapGet("/", (NextImageController controller) => controller.GetImage());
+app.MapGet("/image.png", (NextImageController controller) => controller.GetImage());
 app.Run();
